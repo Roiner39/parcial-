@@ -107,22 +107,8 @@ La principal diferencia está en la $\textcolor{blue}{\textbf{intención y autor
 | $\textcolor{blue}{\textbf{HIPAA}}$ | Estados Unidos | Protege la confidencialidad de la información médica y de salud. |
 | $\textcolor{blue}{\textbf{ISO/IEC 27001}}$ | Internacional | Estándar para implementar un Sistema de Gestión de Seguridad de la Información. |
 | $\textcolor{blue}{\textbf{PCI DSS}}$ | Internacional | Estándar de seguridad relacionado con entidades que procesan, almacenan o transmiten datos de tarjetas de pago. |
-
----
+Get-FileHash "C:\ruta\archivo.exe" -Algorithm SHA256
+Start-MpScan -ScanType FullScan
 
 ## $\textcolor{purple}{\textbf{Flujo de trabajo para compartir información mediante GitHub}}$
-
-```mermaid
-flowchart TD
-    subgraph U1["👤 Usuario 1"]
-        A[1. Crear repositorio en GitHub]
-        B[2. Sincronizar con Git local]
-        C[3. Crear carpeta de trabajo]
-        D[4. Crear archivos del proyecto]
-        E[5. Mover y organizar archivos]
-        F[6. Verificar cambios - git status]
-        G[7. git add .]
-        H[8. git commit]
-        I[9. git push origin main]
-    end
 
